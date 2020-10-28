@@ -1,0 +1,19 @@
+.description__skill {
+  font-size: 21px;
+  display: grid;
+  grid-template: minmax(auto, 350px) / minmax(auto, 150px) minmax(auto, 500px);
+}
+
+.skill__language {
+  grid-column: 1/2;
+  text-align: right;
+}
+.skill__stars {
+  height: 20px;
+  grid-column: 2/3;
+  margin-left: 40px;
+}
+
+.skill__stars img {
+  width: 20px;
+}

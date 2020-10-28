@@ -1,0 +1,27 @@
+.description__education{
+    font-size: 18px;
+    display: grid;
+    grid-template: minmax(auto, 350px) / minmax(auto, 150px) minmax(auto, 500px);
+}
+  
+  .education__date {
+    grid-column: 1/2;
+    font-weight: 700;
+    font-size: 21px;
+    
+  }
+  
+  .date__item {
+    padding: 10px 0px;
+    border-right: 2px solid black;
+    padding-bottom: 50px;
+  }
+  
+  .education__uneversity {
+    grid-column: 2/3;
+    margin-left: 40px;
+  }
+  
+  .uneversity__item {
+    padding: 10px 0px;
+  }

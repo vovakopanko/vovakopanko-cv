@@ -1,0 +1,25 @@
+.description__work {
+  font-size: 18px;
+  display: grid;
+  grid-template: minmax(auto, 350px) / minmax(auto, 150px) minmax(auto, 500px);
+}
+
+.work__date {
+  grid-column: 1/2;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.date__item {
+  padding: 10px 0px;
+  border-right: 2px solid black;
+}
+
+.work__specifical {
+  grid-column: 2/3;
+  margin-left: 40px;
+}
+
+.specifical__item {
+  padding: 10px 0px;
+}

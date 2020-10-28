@@ -1,0 +1,53 @@
+.footer {
+  width: 100%;
+  display: grid;
+  grid-template: 1fr / minmax(auto, 500px) minmax(auto, 500px) minmax(
+      auto,
+      400px
+    );
+  color: white;
+}
+
+.footer__contact {
+  font-size: 12px;
+  grid-column: 1/2;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.footer__contact img {
+  width: 20px;
+  height: 20px;
+}
+
+.contact__location {
+  padding-right: 40px;
+}
+
+.contact__location i,
+.contact__phone i {
+  padding-left: 10px;
+}
+
+.footer__social {
+  grid-column: 3/4;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.footer__social img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer__social a {
+  margin-left: 5px;
+}
+
+.footer__social img:hover {
+  transform: scale(1.1);
+}
+
+.footer__contact img:hover {
+  transform: scale(1.1);
+}

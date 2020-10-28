@@ -1,0 +1,40 @@
+.content__title {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.content__name {
+    font-size: 58px;
+    letter-spacing: -3px;
+  
+    text-shadow: 4px 0px 10px rgb(71, 71, 71);
+    font-style: oblique;
+  }
+  
+  .content__surname {
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin-top: -20px;
+  
+    text-shadow: 4px 0px 10px rgb(50, 50, 50);
+    font-family: "MONOSPACE";
+  }
+  
+  .content__specifical {
+    color: rgb(59, 145, 135);
+    letter-spacing: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+  
+    text-shadow: 2px 0px 1px rgb(10, 10, 10);
+  }
+
+.content__request {
+    text-align: center;
+}
+
+.request__formBlock{
+    text-align: center;
+}
+
