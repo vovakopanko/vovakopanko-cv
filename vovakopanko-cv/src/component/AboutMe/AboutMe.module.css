@@ -12,7 +12,6 @@
   grid-column: 2/3;
 }
 
-
 .content__menu a:hover{
   color: turquoise;
 }
@@ -24,3 +23,32 @@ a.menu__item_activeLink{
 .menu__item{
   font-size: 21px;
 }
+
+@media(max-width:768px){
+  .content__block {
+    display: grid;
+    grid-template: 1fr / minmax(auto, 100px) minmax(auto, 200px) minmax(auto,20px);
+  }
+  
+  .content__menu {
+    grid-column: 1/2;
+    text-align: center;
+  }
+  
+  .content__description {
+    grid-column: 2/3;
+  }
+  
+  .content__menu a:hover{
+    color: turquoise;
+  }
+  
+  a.menu__item_activeLink{
+    color: turquoise;
+  }
+  
+  .menu__item{
+    font-size: 8px;
+  }
+}
+

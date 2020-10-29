@@ -23,3 +23,31 @@
 .specifical__item {
   padding: 10px 0px;
 }
+
+@media (max-width: 768px) {
+  .description__work {
+    font-size: 8px;
+    display: grid;
+    grid-template: 1fr / minmax(auto, 120px) minmax(auto, 120px);
+  }
+  
+  .work__date {
+    grid-column: 1/2;
+    font-weight: 700;
+    font-size: 8px;
+  }
+  
+  .date__item {
+    padding: 10px 0px;
+    border-right: 2px solid black;
+  }
+  
+  .work__specifical {
+    grid-column: 2/3;
+    margin-left: 10px;
+  }
+  
+  .specifical__item {
+    padding: 10px 0px;
+  }
+}

@@ -23,7 +23,7 @@ let Content = (props) => {
         <div className={style.content__menu}>
           <Route path="/aboutme" render={() => <AboutMe />} />
           <Route path="/project" render={() => <Project />} />
-          <Route exact path="/aboutme" render={() => <Redirect to="/aboutme/biography" />} />
+          <Route exact path="/" render={() => <Redirect to="/aboutme/biography" />} />
         </div>
       </div>
       <div className={style.content__request}>HIRE ME</div>

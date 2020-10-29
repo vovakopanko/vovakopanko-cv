@@ -4,51 +4,110 @@
 }
 
 .content__name {
-    font-size: 58px;
-    letter-spacing: -3px;
-  
-    text-shadow: 4px 0px 10px rgb(71, 71, 71);
+  font-size: 58px;
+  letter-spacing: -3px;
+
+  text-shadow: 4px 0px 10px rgb(71, 71, 71);
+  font-style: oblique;
+}
+
+.content__surname {
+  font-size: 96px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  margin-top: -20px;
+
+  text-shadow: 4px 0px 10px rgb(50, 50, 50);
+  font-family: "MONOSPACE";
+}
+
+.content__specifical {
+  color: rgb(59, 145, 135);
+  letter-spacing: 10px;
+  padding-top: 10px;
+  font-size: 14px;
+
+  text-shadow: 0px 0px 1px rgb(10, 10, 10);
+}
+
+.content__menu {
+  margin-top: 40px;
+}
+
+.content__request {
+  text-align: center;
+}
+
+.request__formBlock {
+  text-align: center;
+}
+
+.form__button {
+  margin-top: 20px;
+}
+
+.form__button:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 2px 8px 0px rgb(255, 255, 255);
+  color: rgb(59, 145, 135);
+}
+
+@media (max-width: 768px) {
+  .content__title {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .content__name {
+    font-size: 14px;
+    letter-spacing: 0px;
     font-style: oblique;
   }
-  
+
   .content__surname {
-    font-size: 96px;
+    font-size: 23px;
     font-weight: 700;
     letter-spacing: 10px;
-    margin-top: -20px;
-  
+    margin-top: 0px;
+
     text-shadow: 4px 0px 10px rgb(50, 50, 50);
     font-family: "MONOSPACE";
   }
-  
+
   .content__specifical {
     color: rgb(59, 145, 135);
     letter-spacing: 10px;
     padding-top: 10px;
-    font-size: 14px;
-  
+    font-size: 8px;
+
     text-shadow: 0px 0px 1px rgb(10, 10, 10);
   }
 
-  .content__menu{
-    margin-top: 40px;
+  .content__menu {
+    margin-top: 10px;
   }
 
-.content__request {
+  .content__request {
     text-align: center;
-}
+  }
 
-.request__formBlock{
+  .request__formBlock {
     text-align: center;
-}
+  }
 
-.form__button{
-  margin-top: 20px;
-  
-}
+  .form__button {
+    margin-top: 10px;
+    font-size: 8px;
+  }
 
-.form__button:hover{
-  transform: scale(1.1);
-  box-shadow: 0px 2px 8px 0px rgb(255, 255, 255);
-  color: rgb(59, 145, 135);
+  .form__button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 2px 8px 0px rgb(255, 255, 255);
+    color: rgb(59, 145, 135);
+  }
+
+  .content__request{
+    padding-top: 20px;
+    font-size: 11px;
+  }
 }

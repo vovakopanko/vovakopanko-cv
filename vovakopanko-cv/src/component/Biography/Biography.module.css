@@ -13,3 +13,21 @@
 .menu__description_size b{
     color: rgb(59, 145, 135);
 }
+
+@media(max-width:768px){
+  .menu__description {
+    display:grid;
+    grid-template: 1fr / minmax(auto, 550px) 1fr ;
+  }
+  
+  .menu__description_size{
+    grid-column: 1/2;
+    text-align: justify;
+    font-size: 10px;
+    text-indent: 1.6em;
+  }
+  
+  .menu__description_size b{
+      color: rgb(59, 145, 135);
+  }
+}

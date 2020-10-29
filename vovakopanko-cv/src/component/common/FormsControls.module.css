@@ -27,11 +27,35 @@
   color: rgb(59, 145, 135);
 }
 
-.formControlsWall input {
-  height: 30px;
-  outline: none;
-  border: none;
-  border-bottom: solid 1px #ffffff;
-  background-color: black;
-  color: rgb(59, 145, 135);
+@media (max-width: 768px) {
+  .formControl.error input,
+  .formControl.error textarea {
+    border: 1px solid red;
+  }
+
+  .error span {
+    color: red;
+  }
+
+  .formControl input {
+    width: 150px;
+    height: 10px;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px #ffffff;
+    background-color: black;
+    color: rgb(59, 145, 135);
+    font-size: 10px;
+  }
+
+  .formControl textarea {
+    width: 150px;
+    height: 20px;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px #ffffff;
+    background-color: black;
+    color: rgb(59, 145, 135);
+    font-size: 10px;
+  }
 }

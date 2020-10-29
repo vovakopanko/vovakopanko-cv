@@ -18,7 +18,7 @@ let AboutMe = (props) => {
             activeClassName={style.menu__item_activeLink}
             className={style.menu__item}
           >
-            Biography
+            My description
           </NavLink>
         </div>
         <div>

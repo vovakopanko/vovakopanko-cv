@@ -51,3 +51,56 @@
 .footer__contact img:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+  .footer {
+    width: 100%;
+    display: grid;
+    grid-template: 1fr / minmax(auto, 450px) minmax(auto, 250px);
+    color: white;
+  }
+  
+  .footer__contact {
+    font-size: 8px;
+    grid-column: 1/2;
+    text-align: left;
+    margin-left: 5px;
+  }
+  
+  .footer__contact img {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .contact__location {
+    padding-right: 10px;
+  }
+  
+  .contact__location i,
+  .contact__phone i {
+    padding-left: 10px;
+  }
+  
+  .footer__social {
+    grid-column: 2/3;
+    text-align: right;
+    margin: 0px 5px 0px 0px;
+  }
+  
+  .footer__social img {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .footer__social a {
+    margin-left: 5px;
+  }
+  
+  .footer__social img:hover {
+    transform: scale(1.1);
+  }
+  
+  .footer__contact img:hover {
+    transform: scale(1.1);
+  }
+}

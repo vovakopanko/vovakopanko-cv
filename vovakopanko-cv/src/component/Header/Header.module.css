@@ -21,3 +21,29 @@ a.header__item_activeLink {
 .header__item:hover {
   color: turquoise;
 }
+
+@media(max-width:768px){
+  .header {
+    display: grid;
+    grid-template: 1fr / 1fr minmax(auto, 768px) 1fr;
+    text-align: right;
+    margin: 0px 20px 0px 0px;
+  }
+  
+  .header__items {
+    grid-column: 2/3;
+    font-size: 11px;
+  }
+  
+  .header__item {
+    margin: 0px 60px;
+  }
+  
+  a.header__item_activeLink {
+    color: turquoise;
+  }
+  
+  .header__item:hover {
+    color: turquoise;
+  }
+}
