@@ -1,7 +1,7 @@
 .description__skill{
     font-size: 18px;
     display: grid;
-    grid-template: minmax(auto, 350px) / minmax(auto, 200px) minmax(auto, 450px);
+    grid-template: minmax(auto, 350px) / minmax(auto, 200px) minmax(auto, 450px) ;
 }
 
 .skill_item{
@@ -16,6 +16,6 @@
 }
 
 .skill__star img{
-    width: 20px;
+    width: 110px;
     height: 20px;
 }

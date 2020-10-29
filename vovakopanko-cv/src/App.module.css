@@ -2,16 +2,20 @@
   min-height: 100vh;
   display: grid;
   grid-template:
-    minmax(auto, 30px) 1fr minmax(auto, 30px) / 1fr minmax(auto, 1400px)
+    minmax(auto, 30px) 1fr minmax(auto, 40px) / 1fr minmax(auto, 1400px)
     1fr;
   background-image: url(./images/back.jpg);
   color: white;
+
+  font-family: "CENTURY GOTHIC";
 }
 
 .header {
   grid-row: 1/2;
   grid-column: 2/3;
   padding: 5px;
+  background-image: url(./images/back.jpg);
+  opacity: 0.7;
   /* box-shadow: 2px 4px 8px 0 #cacaca; */
 
   position: fixed;

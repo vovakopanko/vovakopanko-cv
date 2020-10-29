@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./LanguageSkills.module.css";
-import star from "./../../images/star_gold.png";
-import starNull from "./../../images/star.png";
+import star3 from "./../../images/star3.png";
+import star5 from "./../../images/star5.png";
 
 export const LanguageSkills = (props) => {
   return (
@@ -13,25 +13,13 @@ export const LanguageSkills = (props) => {
       </div>
       <div className={style.skill__stars}>
         <div>
-          <img src={star} alt="star" />
-          <img src={star} alt="star" />
-          <img src={star} alt="star" />
-          <img src={starNull} alt="star" />
-          <img src={starNull} alt="star" />
+          <img src={star3} alt="star" />
         </div>
         <div>
-          <img src={star} alt="star" />
-          <img src={star} alt="star" />
-          <img src={star} alt="star" />
-          <img src={star} alt="star" />
-          <img src={star} alt="star" />
+          <img src={star5} alt="star" />
         </div>
         <div>
-          <img src={star} alt="star" />
-          <img src={star} alt="star" />
-          <img src={star} alt="star" />
-          <img src={star} alt="star" />
-          <img src={star} alt="star" />
+          <img src={star5} alt="star" />
         </div>
       </div>
     </div>

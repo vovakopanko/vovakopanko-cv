@@ -21,7 +21,7 @@ const ContactRequest = ({ handleSubmit }) => {
           )}
         </div>
         <div>
-          <button>Отправить</button>
+          <button className={style.form__button}>Отправить</button>
         </div>
       </form>
     </div>

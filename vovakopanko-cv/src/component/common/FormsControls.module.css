@@ -7,15 +7,31 @@
   color: red;
 }
 
-.formControls input {
-  width: 680px;
+.formControl input {
+  width: 200px;
   height: 30px;
-  border-bottom: solid 1px #000000;
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #ffffff;
+  background-color: black;
+  color: rgb(59, 145, 135);
+}
+
+.formControl textarea {
+  width: 200px;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #ffffff;
+  background-color: black;
+  color: rgb(59, 145, 135);
 }
 
 .formControlsWall input {
   height: 30px;
   outline: none;
   border: none;
-  border-bottom: solid 1px #000000;
+  border-bottom: solid 1px #ffffff;
+  background-color: black;
+  color: rgb(59, 145, 135);
 }

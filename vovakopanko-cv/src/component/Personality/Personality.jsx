@@ -4,7 +4,6 @@ import style from "./Personality.module.css";
 export const Personality = (props) => {
   return (
     <div className={style.profile__description}>
-      <ul className={style.content__personality}>
         <div>
           Responsible
         </div>
@@ -20,7 +19,6 @@ export const Personality = (props) => {
         <div>
           High learning ability
         </div>
-      </ul>
     </div>
   );
 };

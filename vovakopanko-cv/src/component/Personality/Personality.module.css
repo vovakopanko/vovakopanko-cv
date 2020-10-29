@@ -2,11 +2,8 @@
   font-size: 21px;
 }
 
-.content__personality img {
+.profile__description img {
   width: 20px;
   height: 20px;
 }
 
-.content__personality {
-  text-decoration: none;
-}
