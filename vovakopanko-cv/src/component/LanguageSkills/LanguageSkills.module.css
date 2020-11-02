@@ -1,16 +1,16 @@
 .description__skill {
   font-size: 21px;
   display: grid;
-  grid-template: minmax(auto, 350px) / minmax(auto, 150px) minmax(auto, 500px);
+  grid-template: minmax(auto, 350px) / 1fr minmax(auto, 350px) minmax(auto, 900px) 1fr;
 }
 
 .skill__language {
-  grid-column: 1/2;
+  grid-column: 2/3;
   text-align: right;
 }
 .skill__stars {
   height: 20px;
-  grid-column: 2/3;
+  grid-column: 3/4;
   margin-left: 40px;
 }
 
@@ -20,19 +20,19 @@
 
 @media (max-width: 768px) {
   .description__skill {
-    font-size: 8px;
     display: grid;
-    grid-template: 1fr/ minmax(auto, 150px) minmax(auto, 500px);
+    grid-template: 1fr/ 1fr minmax(auto, 300px) minmax(auto, 350px) 1fr;
   }
   
   .skill__language {
-    grid-column: 1/2;
+    grid-column: 2/3;
     text-align: right;
+    font-size: 10px;
   }
   .skill__stars {
     height: 8px;
-    grid-column: 2/3;
-    margin-left: 40px;
+    grid-column: 3/4;
+    font-size: 10px;
   }
   
   .skill__stars img {

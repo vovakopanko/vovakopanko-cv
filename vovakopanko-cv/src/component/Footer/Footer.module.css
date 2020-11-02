@@ -58,6 +58,7 @@
     display: grid;
     grid-template: 1fr / minmax(auto, 450px) minmax(auto, 250px);
     color: white;
+    padding-bottom: 10px;
   }
   
   .footer__contact {
@@ -90,6 +91,7 @@
   .footer__social img {
     width: 10px;
     height: 10px;
+    padding-bottom: 10px;
   }
   
   .footer__social a {

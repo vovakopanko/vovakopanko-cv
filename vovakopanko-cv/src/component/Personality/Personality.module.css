@@ -1,14 +1,11 @@
 .profile__description {
   font-size: 21px;
-}
-
-.profile__description img {
-  width: 20px;
-  height: 20px;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
   .profile__description {
     font-size: 8px;
+    text-align: center;
   }
 }

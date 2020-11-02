@@ -12,7 +12,7 @@ let AboutMe = (props) => {
   return (
     <div className={style.content__block}>
       <div className={style.content__menu}>
-        <div>
+        <span>
           <NavLink
             to="/aboutme/biography"
             activeClassName={style.menu__item_activeLink}
@@ -20,8 +20,8 @@ let AboutMe = (props) => {
           >
             My description
           </NavLink>
-        </div>
-        <div>
+        </span>
+        <span>
           <NavLink
             to="/aboutme/experience"
             activeClassName={style.menu__item_activeLink}
@@ -29,8 +29,8 @@ let AboutMe = (props) => {
           >
             Experience
           </NavLink>
-        </div>
-        <div>
+        </span>
+        <span>
           <NavLink
             to="/aboutme/education"
             activeClassName={style.menu__item_activeLink}
@@ -38,8 +38,8 @@ let AboutMe = (props) => {
           >
             Education
           </NavLink>
-        </div>
-        <div>
+        </span>
+        <span>
           <NavLink
             to="/aboutme/profskills"
             activeClassName={style.menu__item_activeLink}
@@ -47,8 +47,8 @@ let AboutMe = (props) => {
           >
             Profile Skills
           </NavLink>
-        </div>
-        <div>
+        </span>
+        <span>
           <NavLink
             to="/aboutme/langskills"
             activeClassName={style.menu__item_activeLink}
@@ -56,8 +56,8 @@ let AboutMe = (props) => {
           >
             Language Skills
           </NavLink>
-        </div>
-        <div>
+        </span>
+        <span>
           <NavLink
             to="/aboutme/personality"
             activeClassName={style.menu__item_activeLink}
@@ -65,7 +65,7 @@ let AboutMe = (props) => {
           >
             Personality
           </NavLink>
-        </div>
+        </span>
       </div>
       <div className={style.content__description}>
         <Route path="/aboutme/biography" render={() => <Biography />} />
